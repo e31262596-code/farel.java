@@ -1,21 +1,16 @@
+package farel_java_f;
+
 public class Main {
-
     public static void main(String[] args) {
-
-        // Deklarasi variabel
-        int a, b, temp;
+        // int, double, float
+        int a, b;
         a = 15;
         b = 27;
 
-        // Menampilkan nilai sebelum ditukar
-        System.out.println("Before swapping : a, b = " + a + ", " + b);
-
-        // Proses penukaran nilai menggunakan variabel sementara (temp)
-        temp = a;
-        a = b;
-        b = temp;
-
-        // Menampilkan nilai setelah ditukar
-        System.out.println("After swapping : a, b = " + a + ", " + b);
+        System.out.println("Before swapping : a, b = "+a+", "+ b);
+        a = a + b;
+        b = a - b;
+        a = a - b;
+        System.out.println("After swapping : a, b = "+a+", "+ b);
     }
 }
