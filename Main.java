@@ -1,16 +1,17 @@
-package farel_java_f;
+package belajarjava_g;
 
-public class Main {
-    public static void main(String[] args) {
-        // int, double, float
-        int a, b;
-        a = 15;
-        b = 27;
+public class Main 
+{
+    public static void main(String[] args) 
+    {
+        // Menggunakan class String
+        String nama = "Arman";
 
-        System.out.println("Before swapping : a, b = "+a+", "+ b);
-        a = a + b;
-        b = a - b;
-        a = a - b;
-        System.out.println("After swapping : a, b = "+a+", "+ b);
+        // Menggunakan class wrapper untuk tipe data short
+        Short umur = 20;
+
+        // Mengakses dan menampilkan nilai variabel
+        System.out.println(nama);
+        System.out.println(umur);
     }
 }
