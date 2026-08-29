@@ -1,13 +1,23 @@
-package Tugasjava_a;
+package konstanta;
+
+import javax.swing.JOptionPane;
 
 public class Main {
-
     public static void main(String[] args) {
-        // TODO code application logic here
-        int umur = 24;
-        int UMUR = 25;
+        // Deklarasi konstanta
+        final double PI = 3.14159;
 
-        System.out.println(umur); // prints 24
-        System.out.println(UMUR); // prints 25
+        // Deklarasi variabel jari2 dan luas
+        int jari2;
+        double luas;
+
+        // Memberi nilai awal ke variabel jari2
+        jari2 = 7;
+
+        // Menghitung luas lingkaran
+        luas = PI * jari2 * jari2;
+
+        System.out.println("Jari-jari lingkaran = " + jari2);
+        System.out.println("\nLuas lingkaran = " + luas);
     }
 }
