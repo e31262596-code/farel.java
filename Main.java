@@ -1,17 +1,18 @@
-package belajarjava_g;
+package Fareljava_h;
 
-public class Main 
-{
-    public static void main(String[] args) 
-    {
-        // Menggunakan class String
-        String nama = "Arman";
+public class Main {
+    public static void main(String[] args) {
+        /*
+         Literal bilangan bulat 10 dalam
+         bentuk desimal, oktal dan heksadesimal.
+        */
 
-        // Menggunakan class wrapper untuk tipe data short
-        Short umur = 20;
+        int desimal = 10;
+        int oktal = 012;
+        int heksadesimal = 0xA;
 
-        // Mengakses dan menampilkan nilai variabel
-        System.out.println(nama);
-        System.out.println(umur);
+        System.out.println("Desimal 10 = " + desimal);
+        System.out.println("Oktal 12 = " + oktal);
+        System.out.println("Heksadesimal A = " + heksadesimal);
     }
 }
